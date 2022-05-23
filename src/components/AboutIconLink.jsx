@@ -1,5 +1,5 @@
 import { FaQuestion} from 'react-icons/fa';
-import {Link, useParams} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function AboutIconLink() {
     // const params = useParams();
