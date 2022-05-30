@@ -84,3 +84,12 @@ http://localhost:3000/feedback
 
 One command to run backend and frontend together
 
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "client": "npm start --prefix client",
+    "server": "npx json-server --watch db.json --port=5001",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+
